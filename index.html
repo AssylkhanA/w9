@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Event Handlers & Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Key Detection</h2>
+        <input type="text" id="enterInput" placeholder="Type and press Enter">
+        <div id="enterMessage" class="result"></div>
+    </div>
+
+    <div class="container">
+        <h2>Double Click Detection</h2>
+        <button id="dblClickBtn">Double-click me</button>
+        <div id="dblClickMessage" class="result"></div>
+    </div>
+
+    <div class="container">
+        <h2>Progress Bar</h2>
+        <button onclick="increaseProgress()">Increase Progress</button>
+        <div class="progress-container">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>FizzBuzz</h2>
+        <button onclick="runFizzBuzz()">Run FizzBuzz</button>
+        <div id="fizzBuzzResult" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
